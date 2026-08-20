@@ -16,7 +16,7 @@ The raw OpenAPI specs this was built from are checked into [`spec/`](spec/) — 
 | JavaScript | [`javascript/`](javascript/) | available |
 | Python     | [`python/`](python/) | available |
 | Go         | `go/`          | planned     |
-| Java       | `java/`        | planned     |
+| Java       | [`java/`](java/) | available |
 
 ## Getting an API key
 
