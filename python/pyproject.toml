@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "labstacknetworks"
+version = "0.1.0"
+description = "Official Python SDK for the LabStack Labs and Provider APIs (https://integration.labstack.in/api-docs)."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "responses>=0.25",
+]
+
+[project.urls]
+Repository = "https://github.com/LabStackNetworks/labstacknetworks-sdk"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/labstacknetworks"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

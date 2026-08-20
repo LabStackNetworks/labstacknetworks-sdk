@@ -14,7 +14,7 @@ The raw OpenAPI specs this was built from are checked into [`spec/`](spec/) — 
 | Language   | Directory      | Status      |
 | ---------- | -------------- | ----------- |
 | JavaScript | [`javascript/`](javascript/) | available |
-| Python     | `python/`      | planned     |
+| Python     | [`python/`](python/) | available |
 | Go         | `go/`          | planned     |
 | Java       | `java/`        | planned     |
 

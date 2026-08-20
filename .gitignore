@@ -5,5 +5,10 @@ dist/
 .env
 __pycache__/
 *.egg-info/
+.venv/
+*.egg-info
+build/
+dist/
+.pytest_cache/
 target/
 *.class
